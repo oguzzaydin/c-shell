@@ -1,21 +1,11 @@
-/*
 
-Grup No:5  
-şube   :1-B
------------------------------
-b140910042 Oğuzhan AYDIN    -
-b140910054 Ozan Arif ÇAKIR  -
-b140910051 Mustafa YAYLALI  -
-b141210054 İsmail DENİZ     -
-b140910048 Onur KARAKUŞ     -
------------------------------
-*/
 
-#define TRUE 1
+#define TRUE 
 #define FALSE !TRUE
 
 // Shell pid, pgid, terminal modları
 static pid_t GBSH_PID;
+
 static pid_t GBSH_PGID;
 static int GBSH_IS_INTERACTIVE;
 static struct termios GBSH_TMODES;
